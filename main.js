@@ -54,6 +54,7 @@ async function main() {
             user.token = refreshToken.data.token
           }
         }
+        printYellow(refreshToken)
         refreshUserinfo.push(user)
       }
 
